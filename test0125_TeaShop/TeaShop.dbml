@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Lab" Class="TeaShopDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-8D7LR2I\SQLEXPRESS01;Initial Catalog=Lab;Integrated Security=True" SettingsObjectName="test0125_TeaShop.Properties.Settings" SettingsPropertyName="LabConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Product_Tea" Member="Product_Tea">
+    <Type Name="Product_Tea">
+      <Column Name="ProductID" Type="System.Int16" DbType="SmallInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ProducPrice" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ProductCategory" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
